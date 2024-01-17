@@ -7,6 +7,7 @@ const formulario = document.querySelector('#formulario')
 const nombre = document.querySelector('#nombre')
 const correo = document.querySelector('#correo')
 const mensaje = document.querySelector('#mensaje')
+const enviar = document.querySelector('#enviar')
 const errores = document.querySelector('#errores')
 let mensajeErrores = []
 
