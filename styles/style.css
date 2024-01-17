@@ -1,10 +1,49 @@
 @import url();
 
 :root{
-    --h1-color;
-    --h1-font-size;
-    --span-color;
-    --span-font-size;
-    --h2-color;
-    --h2-font-size;
+    --h1-font-size: 5rem;
+    --h2-font-size: 2rem;
+    --span-font-size: 2rem;
+    --h1-color: #ffffff;
+    --h2-color: #ffffff;
+    --span-color: #ffffff;
+    --button-color: #3879a1;
+    --height-hero-image: 90vh;
+}
+
+@media screen and (max-width: 1024px){
+    :root{
+        --h1-font-size: 5rem;
+    --h2-font-size: 2rem;
+    --span-font-size: 2rem;
+    --h1-color: #ffffff;
+    --h2-color: #ffffff;
+    --span-color: #ffffff;
+    --button-color: #3879a1;
+    --height-hero-image: 90vh;
+    }
+}
+
+*, :after, :before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: ;
+}
+
+body{
+    background-color: rgb(83, 71, 71);
+}
+
+.hero-image{
+    background: url(/assets/img/hero-image.jpg) center/cover;
+    height: var(--height-hero-image);
+    clip-path: ellipse(50% 50%);
+    position: relative;
+    text-align: center;
+}
+
+.hero-body{
+    align-items: center;
+    height: 100%;
 }
