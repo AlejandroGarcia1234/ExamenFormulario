@@ -1,4 +1,7 @@
-@import url();
+@font-face {
+    font-family: 'Afacad';
+    src: url(/assets/fonts/Afacad-Italic-VariableFont_wght.ttf);
+}
 
 :root{
     --h1-font-size: 5rem;
@@ -13,7 +16,7 @@
 
 @media screen and (max-width: 1024px){
     :root{
-        --h1-font-size: 5rem;
+    --h1-font-size: 5rem;
     --h2-font-size: 2rem;
     --span-font-size: 2rem;
     --h1-color: #ffffff;
@@ -28,7 +31,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: ;
+    font-family: 'Afacad';
 }
 
 body{
@@ -63,6 +66,7 @@ span{
 p{
     color: #ffffff;
     padding-bottom: 1rem;
+    text-align: center;
 }
 
 h2{
@@ -103,7 +107,7 @@ form {
 }
 
 .btn {
-    background-color: var(--button-color);
+    background: radial-gradient(circle, rgb(46, 90, 111), rgb(125, 61, 130));
     color: #ffffff; 
     padding: 0.5rem 1rem;
     cursor: pointer;

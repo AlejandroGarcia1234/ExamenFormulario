@@ -35,4 +35,4 @@ const validar = evento => {
     }
 }
 
-formulario.addEventListener('submit', validar) //La validación del formulario se realiza FUERA de la función validar
+formulario.addEventListener('submit', validar) //La validación final del formulario se realiza FUERA de la función validar
