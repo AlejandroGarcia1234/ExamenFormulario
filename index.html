@@ -19,10 +19,11 @@
         <h2>Contáctanos</h2>
         <br><br>
         <div class="form-container">
-            <form id="formulario" action="enviaCorreo.html" method="get">
+            <form id="formulario" action="templates/formEnviado.html" method="get">
                 <input name="nombre" id="nombre" placeholder="Nombre" type="text" class="name">
                 <input name="correo" id="correo" placeholder="Correo" type="text" class="email">
-                <textarea name="mensaje" id="mensaje" cols="4" rows="20" placeholder="Por favor, inserte un mensaje" class="message"></textarea>
+                <input id="info" type="submit" class="btn" value="Info">
+                <textarea name="mensaje" id="mensaje" cols="4" rows="20" placeholder="Por favor, introduzca un mensaje" class="message"></textarea>
                 <input id="enviar" type="submit" class="btn" value="Enviar">
     
                 <ul id="errores"></ul>
