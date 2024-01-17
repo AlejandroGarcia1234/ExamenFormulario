@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario Examen</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="Estrella.ico" type="image/x-icon">
 </head>
 <body>
     <div class="hero-image-container">
@@ -22,6 +24,8 @@
             <form id="formulario" action="templates/formEnviado.html" method="get">
                 <input name="nombre" id="nombre" placeholder="Nombre" type="text" class="name">
                 <input name="correo" id="correo" placeholder="Correo" type="text" class="email">
+                <input type="radio" id="radio1" name="radio" checked>
+                <input type="radio" id="radio2" name="radio">
                 <input id="info" type="submit" class="btn" value="Info">
                 <textarea name="mensaje" id="mensaje" cols="4" rows="20" placeholder="Por favor, introduzca un mensaje" class="message"></textarea>
                 <input id="enviar" type="submit" class="btn" value="Enviar">
