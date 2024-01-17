@@ -16,7 +16,7 @@ const validar = evento => {
 
     nombre.value.trim().length === 0 && mensajeErrores.push('Es obligatorio rellenar este campo')
     !/^[a-zA-Z0-9]*$/.test(nombre.value.trim()) && mensajeErrores.push('Caracteres no válidos para el nombre')
-    !/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test(correo.value.trim()) && mensajeErrores.push('Dirección de correo electrónico no válida')
+    !/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test(correo.value.trim()) && mensajeErrores.push('La dirección de correo electrónico no es válida')
     mensaje.value.trim().length < 10 && mensajeErrores.push('El mensaje es demasiado corto. Por favor, introduzca un mensaje adecuado')
     !/^[1]?[0-9]{1,2}$/.test(edad.value.trim()) && mensajeErrores.push('Es obligatorio rellenar este campo')
 
