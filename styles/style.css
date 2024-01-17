@@ -87,3 +87,30 @@ form {
     background-color: rgb(112, 89, 55);
     margin-bottom: 2rem;
 }
+
+.name, .email, .message {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    background-color: rgb(46, 44, 44);
+    color: rgb(188, 200, 191);
+}
+
+.btn {
+    background-color: var(--button-color);
+    color: #ffffff; 
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #4d1937; 
+    color: #fff; 
+}
+
+#errores {
+    list-style: none;
+    color: red;
+    padding: 0.5rem;
+}
